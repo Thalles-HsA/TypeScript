@@ -1,3 +1,2 @@
-export class Imprimivel {
-    constructor() { }
-}
+export {};
+//# sourceMappingURL=imprimivel.js.map
