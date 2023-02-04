@@ -1,11 +1,9 @@
-import { escape } from "../decorators/escapar.js";
-import { View } from "./view.js";
 
-export class MensagemView  extends View<string>{
+import { View } from './view.js';
 
-    @escape
+export class MensagemView extends View<string> {
+
     protected template(model: string): string {
-
         return `
             <p class="alert alert-info">${model}</p>
         `
